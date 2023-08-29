@@ -2,7 +2,7 @@ html{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
   210deg,
   hsl(240deg 100% 20%) 0%,
   hsl(289deg 100% 21%) 11%,
@@ -13,22 +13,36 @@ html{
   hsl(17deg 100% 59%) 67%,
   hsl(34deg 100% 53%) 78%,
   hsl(45deg 100% 50%) 89%,
-  hsl(55deg 100% 50%) 100%
-);
+  hsl(55deg 100% 50%) 100%  
+);*/
+    background-image: url("https://static.skyassets.com/contentstack/assets/bltdc2476c7b6b194dd/blt1a17d81421f4ab50/60b8ea937ed7e61985b8d3e5/Spectrum_Header.png");
     background-repeat: no-repeat;
+    background-size: cover;
     font-family:'Lato', sans-serif;
+    color:white;    
 }
 
-#containers{
+h1 {
+    display: flex;
+    justify-content:center;   
+}
+
+.otherPages{
+    display:inline;
+    margin: 10px;
+}
+
+.containers{
     display:flex;
-    justify-content: space-around;
+    justify-content:space-around;
+
 }
 
 #container1,#container2,#container3,#container4,#container5{
     display:flex;
+    justify-content: space-around;
     width: 350px;
     height: 300px;
-    border: solid;
     border-radius:30px;
     perspective:1000px;
 }
@@ -40,7 +54,7 @@ html{
     height: 100%;
     justify-content: center;
     align-items: center;
-    transition: transform 0.8s;
+    transition: transform 1s;
     transform-style:preserve-3d;
 }
 
