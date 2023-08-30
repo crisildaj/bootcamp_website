@@ -15,12 +15,14 @@ html{
   hsl(45deg 100% 50%) 89%,
   hsl(55deg 100% 50%) 100%  
 );*/
-    background-image: url("https://static.skyassets.com/contentstack/assets/bltdc2476c7b6b194dd/blt1a17d81421f4ab50/60b8ea937ed7e61985b8d3e5/Spectrum_Header.png");
+    background-image: url("sky_background2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family:'Lato', sans-serif;
     color:white;    
 }
+
+
 
 h1 {
     display: flex;
@@ -103,8 +105,14 @@ h1 {
 }
 
 
-
-
+.textbox {
+    /* display:flex; */
+    background-color: white;
+    /* border-radius:50px; */
+    color: black;
+    justify-content: center;
+    /* align-items: center; */
+}
 
 
 
