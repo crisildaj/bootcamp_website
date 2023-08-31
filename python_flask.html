@@ -5,10 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Python Programming & Flask</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Lato&family=Mukta:wght@200&display=swap" rel="stylesheet">
 </head>
+
+<!-- need to add header and footer -->
+
+<style>
+    /* styling for white textbox */
+    .textbox {
+        background-color: white;
+        color: black;
+        justify-content: center;
+        border-radius: 50px;
+        margin: 0px 40px 10px 40px;
+        overflow: hidden;
+    }
+
+    /* styling for title: 'Python Programming & Flask' */
+    h1 {
+        font-size: 30pt;
+        margin-top: -50px;
+    }
+
+    /* styling for intro */
+    p {
+        margin: 0px 40px 40px 40px;
+    }
+    
+    /* styling for images div */
+    .images {
+        margin: -500px 0px 0px 900px;
+        width: 50px;
+        /* padding: 100px; */
+
+    }
+
+    /* styling for actual image */
+    /* I've decided to only include one image cause I don't think python will need loads of images */
+    .screenshots {
+        height: 500px;
+        width: 500px;
+        margin-top: -50px;
+    }
+
+
+    html, body {
+        /* hides scrollbar and prevents scrolling for the whole webpage */
+        margin: 0; 
+        height: 100%; 
+        overflow: hidden
+    }   
+</style>
+
 <body>
     <!-- picture of sky logo -->
     <img src="transparent logo.webp" alt="sky logo" width="200px" height="100px">
+
 
     <!-- Title and intro -->
     <div>
@@ -18,7 +72,7 @@
 
     <!-- Application of knowledge -->
     <div style="width: 50%" class="textbox" >
-        <h3>How we applied our knowledge to the project</h3>
+        <h3 style="text-align: center;">How we applied our knowledge to the project</h3>
             <ul>
                 <li>point 1 blah blah blah blah Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam hendrerit vel sapien rutrum lobortis. Vestibulum odio orci, rhoncus vele </li>
                 <br>
@@ -31,15 +85,15 @@
                 <li>point 5 blah blah blah blah Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam hendrerit vel sapien rutrum lobortis. Vestibulum odio orci, rhoncus vele </li>
                 <br>
                 <li>point 6 blah blah blah blah Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam hendrerit vel sapien rutrum lobortis. Vestibulum odio orci, rhoncus vele </li>
-                <br>
+                <br>   
             </ul>
     </div>
 
-    <!-- <div style="width: 50%" class="textbox">
-        <img src="image placeholder.png" alt="code screenshots">
-
-    </div> -->
-
+   
+    <!-- image -->
+    <div class="images">
+        <img src="image placeholder.png" alt = "screenshot of code" class="screenshots">
+    </div>
 
 </body>
-</html>
+</html> 
