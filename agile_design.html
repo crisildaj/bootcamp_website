@@ -10,32 +10,56 @@
     </head>
     <style>
         /*styling for title: AgilePm DSDM, Scrum & Design Thinking Process */
-     .section1 h1 {
+    .section1 h1 {
             font-size: 30pt;
             margin-top: 50px;
             text-align: center;
         }
     .section1 h2 {
-            text-align:center;
+            text-align:left;
         }  
     .section1 h3 {
             text-align: left;
         } 
     .section1 p {
             text-align: left;
+        /* Style for Scrum header section2 */
         }
     .section2 h2 {
             text-align: center;
-        }
-    .section2 p {
-            text-align: center;
-        }
-    .section2 p:nth-child(4) {
-            text-align: left;
-            
+        /* Style for Scrum definition in section2 */
         }
 
-    .section3 h2 {
+    .section2 p {
+            text-align: left;   
+        }
+            /* Style for the tables in section2 */
+    .section2 {
+            display: flex;
+            flex-wrap: wrap; /* Allow tables to wrap to the next line if needed */
+            justify-content: space-between; /* Distribute tables evenly */
+            align-items: flex-start; /* Align tables to the top */
+        }
+
+    .section2 table {
+            width: calc(33.33% - 20px); /* Set the width for each table (minus margin) */
+            margin: 10px;
+            border-collapse: collapse;
+        }
+
+        /* Style for table headers */
+    .section2 th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+
+        /* Style for table cells */
+    .section2 td {
+            padding: 8px;
+            border: 1px solid #dddddd;
+            text-align: left;
+        }  
+     .section3 h2 {
             text-align: center;
         }
      
@@ -50,6 +74,8 @@
         <div class="section1" id="agile-dsdm">
         <header>
             <h1>Agile DSDM, Scrum & The Design Thinking Process</h1>
+        <br>
+        <br>
                 <h2>Agile Project Management DSDM</h2>
         </header>
         <main>
@@ -84,26 +110,165 @@
             <p>For more information about DSDM and Agile Project Management, visit <a href="https://www.dsdm.org/" target="_blank">DSDM.org</a>.</p>
         </footer>
         </div>
+        <br>
 
         <div class="section2" id="scrum">
                 <!--- Scrum Content here -->
-            <h2>Scrum</h2>
-        
-        <img src="Scrum_Pillars.jpeg" alt="Scrum Pillars" style="max-width: 25%; float: right; margin-left: 20px;">
+          <h2>Scrum</h2>
+        <br>
 
-        <p>'Scrum is a lightweight framework that helps people, teams and organisations generate value through adaptive solutions for complex problems.'</p>
-
-        <p>Scrum is an agile framework that focuses on iterative development and collaboration. It divides projects into fixed duration iterations called sprints, cross functional teams work to deliver a shipable increment of the product. Scrum emphasizes adaptability, transparency, and continuous improvement through regular meetings Daily Scrum, Sprint Planning, Sprint Review and Sprint Retrospective. Scrum has weel defined roles Scrum Master, Product Owner and Developers. Scrum is rooted in software development but could be applied to all all complex projects.
-        </p>  
+        <p><em>'Scrum is a lightweight framework that helps people, teams and organisations generate value through adaptive solutions for complex problems.</em> Scrum focuses on iterative development and collaboration. It divides projects into fixed duration iterations called sprints, cross functional teams work to deliver a shipable increment of the product. Scrum emphasizes adaptability, transparency, and continuous improvement through regular meetings Daily Scrum, Sprint Planning, Sprint Review and Sprint Retrospective. Scrum has weel defined roles Scrum Master, Product Owner and Developers. Scrum is rooted in software development but could be applied to all all complex projects.
+        </p>
         <br>
-        <br>
-        <br>
+            <img src="Scrum_Pillars.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;">
+            <img src="Scrum_Values.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;">
+            <img src="Scrum_Flow.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;">  
+        <br>      
+        <br>    
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Role</th>
+                        <th>Key Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Product Owner</td>
+                        <td>
+                            <ul>
+                                <li>Defines product goals and backlog</li>
+                                <li>Maximizes value for users and business</li>
+                                <li>Champions product vision</li>
+                                <li>Works with stakeholders</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Developer (Team Member)</td>
+                        <td>
+                            <ul>
+                                <li>Decides how to accomplish work</li>
+                                <li>Manages the sprint backlog</li>
+                                <li>Inspects and adapts daily</li>
+                                <li>Contributes to the sprint goal</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Scrum Master</td>
+                        <td>
+                            <ul>
+                                <li>Helps the team perform at their best</li>
+                                <li>Protects the team from distractions</li>
+                                <li>Coaches and facilitates meetings</li>
+                                <li>Reinforces agile principles</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Event</th>
+                        <th>Key Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sprint Planning</td>
+                        <td>
+                            <ul>
+                                <li>Plan the work for the upcoming sprint</li>
+                                <li>Select backlog items for the sprint</li>
+                                <li>Create the sprint backlog</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Daily Scrum</td>
+                        <td>
+                            <ul>
+                                <li>Short daily meeting to synchronize the team</li>
+                                <li>Discuss progress, challenges, and plans</li>
+                                <li>15-minute time-boxed event</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sprint Review</td>
+                        <td>
+                            <ul>
+                                <li>Review the increment with stakeholders</li>
+                                <li>Get feedback and discuss what's done</li>
+                                <li>Adapt the product backlog as needed</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sprint Retrospective</td>
+                        <td>
+                            <ul>
+                                <li>Reflect on the sprint and team performance</li>
+                                <li>Identify improvements for the next sprint</li>
+                                <li>Closed-loop event for continuous improvement</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Artifact</th>
+                        <th>Key Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Product Backlog</td>
+                        <td>
+                            <ul>
+                                <li>List of all desired product features</li>
+                                <li>Prioritized by the Product Owner</li>
+                                <li>Dynamic and constantly evolving</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sprint Backlog</td>
+                        <td>
+                            <ul>
+                                <li>Subset of the Product Backlog for the sprint</li>
+                                <li>Contains work committed to for the sprint</li>
+                                <li>Owned by the Development Team</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Increment</td>
+                        <td>
+                            <ul>
+                                <li>Sum of all completed backlog items</li>
+                                <li>Potentially shippable and usable product</li>
+                                <li>Reviewed at the end of each sprint</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <br>
 
         </div>
+        <br>
+        <br>
 
         <div class="section3" id="Design_Thinking">
             <!--- Design Thinking content here -->
-            <h2>Design Thinking Process</h2>
+            <h2>Design Thinking Process</h2>  
            
 
 
