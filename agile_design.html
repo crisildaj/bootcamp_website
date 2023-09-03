@@ -19,7 +19,33 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Mukta', sans-serif;
 }
-
+header {
+    display:inline-block;
+    background-image: url("sky_background2.jpeg");
+    padding: 0px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.logo {
+    text-align:left;
+}
+.logo img {
+    max-width: 200px;
+    margin-bottom: 0px;
+}
+.Technophobes h3{
+        color: white;
+        margin: 0;
+}
+.Page_Header h1{
+        text-align:center;
+        font-size: 30px;
+        color: white;
+        margin-top: 0px;
+}
 /* About Us, Help, Legal and Privacy Nav Bar */
 #pages {
     position: absolute;
@@ -86,89 +112,84 @@ ul#pageList li.otherPages:hover {
     padding:5px
 }
 .section1, .section2, .section3 {
-        background-color:rgba(255, 255, 255, 1);
-        padding: 20px;
-        color: black;
-}
-.Technophobes h3{
-        text-align:left;
-}
-.Page_Header h1{
-        text-align:center;
-        display: block;
-        font-size: 50px;
-        margin-top: 0;
+    background-color:rgba(255, 255, 255, 1);
+    padding: 20px;
+    color: black;
 }
 .section1 h1 {
-            font-size: 30pt;
-            margin-top: 50px;
-            text-align: center;
+    font-size: 30pt;
+    margin-top: 50px;
+    text-align: center;
 }
 .section1 h2 {
-            text-align:left;
+    text-align:left;
 }  
 .section1 h3 {
-            text-align:left;
+    text-align:left;
 } 
 .section1 p {
-            text-align: left;
+    text-align: left;
         /* Style for Scrum header section2 */
 }
 .section2 h2 {
-            text-align: left;
+    text-align: left;
         /* Style for Scrum definition in section2 */
 }
 
 .section2 p {
-            text-align: left;   
+    text-align: left;   
 }
             /* Style for the tables in section2 */
 .section2 {
-            display: flex;
-            flex-wrap: wrap; /* Allow tables to wrap to the next line if needed */
-            justify-content: space-between; /* Distribute tables evenly */
-            align-items: flex-start; /* Align tables to the top */
+    display: flex;
+    flex-wrap: wrap; /* Allow tables to wrap to the next line if needed */
+    justify-content: space-between; /* Distribute tables evenly */
+    align-items: flex-start; /* Align tables to the top */
 }
 
 .section2 table {
-            width: calc(33.33% - 20px); /* Set the width for each table (minus margin) */
-            margin: 10px;
-            border-collapse: collapse;
+    width: calc(33.33% - 20px); /* Set the width for each table (minus margin) */
+    margin: 10px;
+    border-collapse: collapse;
 }
 
         /* Style for table headers */
 .section2 th {
-            background-color: #f2f2f2;
-            text-align: left;
+    background-color: #f2f2f2;
+    text-align: left;
 }
 
         /* Style for table cells */
 .section2 td {
-            padding: 8px;
-            border: 1px solid #dddddd;
-            text-align: left;
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
 }  
 .section3 h2 {
-            text-align: left;
+    text-align: left;
 }
 .section3 h3 {
-            text-align: left;
+    text-align: left;
 }
-
-
+.Page_Footer {
+    background-image: url("sky_background2.jpeg");
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
 </style>
 </head>
-
-    <body>
+<body>
+    <header>
+        <div class="header-content" id="header-content">
+        <div class="logo" id="logo">
     <img src="transparent logo.webp" alt="sky logo" width="200px" height="120px";> 
-
-    <div class="Technophobes" id="Technophobes">
+        <div class="Technophobes" id="Technophobes">
         <h3>Technophobes</h3>
-    </div>
-    </div>
-
-    <div id="pages">
-        
+        <div class="Page_Header" id="Page_Header">
+        <h1>Agile DSDM, Scrum & The Design Thinking Process</h1>
+        </div>
+         <div id="pages"> 
         <ul id="pageList">
             <li class="otherPages" id="aboutUs">About Us</li>
             <li class="otherPages"  id="help">Help</li>
@@ -176,15 +197,18 @@ ul#pageList li.otherPages:hover {
             <li class="otherPages" id="legal">Legal</li> 
         </ul>
     </div>
-    <div class="Page_Header" id="Page_Header">
-        <h1>Agile DSDM, Scrum & The Design Thinking Process</h1></h1>
-    </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="section1" id="agile-dsdm">
-        <header>
+       
                 <h2>Agile Project Management DSDM</h2>
-        </header>
-        <main>
-            
                 <h3>What is Agile Project Management?</h3>
                 <p><em> An iterative and incremental approach to managing projects. It emphasizes collaboration, flexibility, and delivering value to customers.</em> What this means:
                     <br> 
@@ -445,6 +469,9 @@ ul#pageList li.otherPages:hover {
     </div>
     <br>
     <br>
+    <div class="Page_Footer" id= "Page_Footer">
+    <p>&copy; 2023 Technophobes. All Rights Reserved</p>
+    </div>
 
 
 </body>
