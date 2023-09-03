@@ -21,12 +21,30 @@ body{
 }
 
 /* About Us, Help, Legal and Privacy Nav Bar */
-#pages  {
-    display:inline;
-    text-align: right;
+#pages {
+    position: absolute;
+    top: 10px; /* Adjust the top spacing as needed */
+    right: 10px; /* Adjust the right spacing as needed */
 }
-ul#pageList li:nth-child(4){
-    margin-right:50px;
+
+ul#pageList {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+}
+
+ul#pageList li.otherPages {
+    display: inline;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.3); /* Add a background color with transparency */
+    border-radius: 6px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+ul#pageList li.otherPages:hover {
+    background-color: white;
+    color: black;
 }
 .otherPages{
     display:inline;
@@ -72,10 +90,14 @@ ul#pageList li:nth-child(4){
         padding: 20px;
         color: black;
 }
-.section0 h1{
+.Technophobes h3{
+        text-align:left;
+}
+.Page_Header h1{
         text-align:center;
         display: block;
         font-size: 50px;
+        margin-top: 0;
 }
 .section1 h1 {
             font-size: 30pt;
@@ -138,7 +160,12 @@ ul#pageList li:nth-child(4){
 </head>
 
     <body>
-    <img src="transparent logo.webp" alt="sky logo" width="200px" height="120px">
+    <img src="transparent logo.webp" alt="sky logo" width="200px" height="120px";> 
+
+    <div class="Technophobes" id="Technophobes">
+        <h3>Technophobes</h3>
+    </div>
+    </div>
 
     <div id="pages">
         
@@ -149,8 +176,8 @@ ul#pageList li:nth-child(4){
             <li class="otherPages" id="legal">Legal</li> 
         </ul>
     </div>
-    <div class="section0" id="Page Header">
-        <h1>The Technophobes <br>Agile DSDM, Scrum & The Design Thinking Process</h1></h1>
+    <div class="Page_Header" id="Page_Header">
+        <h1>Agile DSDM, Scrum & The Design Thinking Process</h1></h1>
     </div>
     <div class="section1" id="agile-dsdm">
         <header>
