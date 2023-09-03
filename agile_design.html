@@ -1,96 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Agile Methodologies & Design Thinking </title>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Lato&family=Mukta:wght@200&display=swap" rel="stylesheet">
-    </head>
-    <style>
-        /*styling for title: AgilePm DSDM, Scrum & Design Thinking Process */
-    .section1, .section2, .section3 {
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Lato&family=Mukta:wght@200&display=swap" rel="stylesheet">
+    <title>Agile Methodologies & Design Thinking</title>
+<style>
+body{
+    background-image: url("sky_background2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'Lato', sans-serif;
+    color:white;  
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* About Us, Help, Legal and Privacy Nav Bar */
+#pages  {
+    display:inline;
+    text-align: right;
+}
+ul#pageList li:nth-child(4){
+    margin-right:50px;
+}
+.otherPages{
+    display:inline;
+    margin: 10px; 
+}
+#pageBackgrounds{
+    padding:0;
+    margin: 0;
+}
+.containers{
+    display:flex;
+    justify-content:space-around;
+}
+#aboutUs,#help,#privacy,#legal{
+    transition:0.5s;
+}
+#aboutUs:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px; 
+    padding:5px
+}
+#help:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px; 
+    padding:5px
+}
+#privacy:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px; 
+    padding:5px
+}
+#legal:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px; 
+    padding:5px
+}
+.section1, .section2, .section3 {
         background-color:rgba(255, 255, 255, 1);
         padding: 20px;
-    }
-    
-    body {
-        background-image:url("sky_background2.jpeg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-
-    }
-    .section1 h1 {
+        color: black;
+}
+.section0 h1{
+        text-align:center;
+        display: block;
+        font-size: 50px;
+}
+.section1 h1 {
             font-size: 30pt;
             margin-top: 50px;
             text-align: center;
-        }
-    .section1 h2 {
+}
+.section1 h2 {
             text-align:left;
-        }  
-    .section1 h3 {
-            text-align:;
-        } 
-    .section1 p {
+}  
+.section1 h3 {
+            text-align:left;
+} 
+.section1 p {
             text-align: left;
         /* Style for Scrum header section2 */
-        }
-    .section2 h2 {
+}
+.section2 h2 {
             text-align: left;
         /* Style for Scrum definition in section2 */
-        }
+}
 
-    .section2 p {
+.section2 p {
             text-align: left;   
-        }
+}
             /* Style for the tables in section2 */
-    .section2 {
+.section2 {
             display: flex;
             flex-wrap: wrap; /* Allow tables to wrap to the next line if needed */
             justify-content: space-between; /* Distribute tables evenly */
             align-items: flex-start; /* Align tables to the top */
-        }
+}
 
-    .section2 table {
+.section2 table {
             width: calc(33.33% - 20px); /* Set the width for each table (minus margin) */
             margin: 10px;
             border-collapse: collapse;
-        }
+}
 
         /* Style for table headers */
-    .section2 th {
+.section2 th {
             background-color: #f2f2f2;
             text-align: left;
-        }
+}
 
         /* Style for table cells */
-    .section2 td {
+.section2 td {
             padding: 8px;
             border: 1px solid #dddddd;
             text-align: left;
-        }  
-    .section3 h2 {
+}  
+.section3 h2 {
             text-align: left;
-        }
-    .section3 h3 {
+}
+.section3 h3 {
             text-align: left;
-    }
-     
-    </style>
-     
+}
 
-    <!--- Olivia to work on Agile DSDM David to work on Scrum, TBC Design Thinking Process-->
+
+</style>
+</head>
+
     <body>
-            <!-- picture of sky logo -->
-    <img src="transparent logo.webp" alt="sky logo" width="200px" height="100px">
+    <img src="transparent logo.webp" alt="sky logo" width="200px" height="120px">
 
-        <div class="section1" id="agile-dsdm">
+    <div id="pages">
+        
+        <ul id="pageList">
+            <li class="otherPages" id="aboutUs">About Us</li>
+            <li class="otherPages"  id="help">Help</li>
+            <li class="otherPages" id="privacy">Privacy</li>
+            <li class="otherPages" id="legal">Legal</li> 
+        </ul>
+    </div>
+    <div class="section0" id="Page Header">
+        <h1>The Technophobes <br>Agile DSDM, Scrum & The Design Thinking Process</h1></h1>
+    </div>
+    <div class="section1" id="agile-dsdm">
         <header>
-            <h1>Agile DSDM, Scrum & The Design Thinking Process</h1>
-        <br>
-        <br>
                 <h2>Agile Project Management DSDM</h2>
         </header>
         <main>
@@ -145,219 +208,220 @@
         <br>
         <br>
         <br>
-
         <div class="section2" id="scrum">
-                <!--- Scrum Content here -->
-          <h2>Scrum</h2>
-        <p><em>'Scrum is a lightweight framework that helps people, teams and organisations generate value through adaptive solutions for complex problems.</em> Scrum focuses on iterative development and collaboration. It divides projects into fixed duration iterations called sprints, cross functional teams work to deliver a shipable increment of the product. Scrum emphasizes adaptability, transparency, and continuous improvement through regular meetings Daily Scrum, Sprint Planning, Sprint Review and Sprint Retrospective. Scrum has weel defined roles Scrum Master, Product Owner and Developers. Scrum is rooted in software development but could be applied to all all complex projects.
-        </p>
+            <!--- Scrum Content here -->
+      <h2>Scrum</h2>
+    <p><em>'Scrum is a lightweight framework that helps people, teams and organisations generate value through adaptive solutions for complex problems.</em> Scrum focuses on iterative development and collaboration. It divides projects into fixed duration iterations called sprints, cross functional teams work to deliver a shipable increment of the product. Scrum emphasizes adaptability, transparency, and continuous improvement through regular meetings Daily Scrum, Sprint Planning, Sprint Review and Sprint Retrospective. Scrum has weel defined roles Scrum Master, Product Owner and Developers. Scrum is rooted in software development but could be applied to all all complex projects.
+    </p>
+    <br>
+        <img src="Scrum_Pillars.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;">
+        <img src="Scrum_Values.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;">
+        <img src="Scrum_Flow.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;">  
+    <br>      
+    <br>    
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>3 * Roles</th>
+                    <th>Key Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Product Owner</td>
+                    <td>
+                        <ul>
+                            <li>Defines product goals and backlog</li>
+                            <li>Maximizes value for users and business</li>
+                            <li>Champions product vision</li>
+                            <li>Works with stakeholders</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Developer (Team Member)</td>
+                    <td>
+                        <ul>
+                            <li>Decides how to accomplish work</li>
+                            <li>Manages the sprint backlog</li>
+                            <li>Inspects and adapts daily</li>
+                            <li>Contributes to the sprint goal</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Scrum Master</td>
+                    <td>
+                        <ul>
+                            <li>Helps the team perform at their best</li>
+                            <li>Protects the team from distractions</li>
+                            <li>Coaches and facilitates meetings</li>
+                            <li>Reinforces agile principles</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th> 5 * Event</th>
+                    <th>Key Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sprint Planning</td>
+                    <td>
+                        <ul>
+                            <li>Plan the work for the upcoming sprint</li>
+                            <li>Select backlog items for the sprint</li>
+                            <li>Create the sprint backlog</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Daily Scrum</td>
+                    <td>
+                        <ul>
+                            <li>Short daily meeting to synchronize the team</li>
+                            <li>Discuss progress, challenges, and plans</li>
+                            <li>15-minute time-boxed event</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sprint Review</td>
+                    <td>
+                        <ul>
+                            <li>Review the increment with stakeholders</li>
+                            <li>Get feedback and discuss what's done</li>
+                            <li>Adapt the product backlog as needed</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sprint Retrospective
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Reflect on the sprint and team performance</li>
+                            <li>Identify improvements for the next sprint</li>
+                            <li>Closed-loop event for continuous improvement</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>The Sprint
+                    </td>
+                    <td>
+                        <ul>
+                            <li>The Sprint could be considered the container which the other events take place.</li>
+                            <li>Sprints usually range from 2 - 4 weeks but can vary depending on the project.</li>
+                           
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>3 * Artifact</th>
+                    <th>Key Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Product Backlog</td>
+                    <td>
+                        <ul>
+                            <li>List of all desired product features</li>
+                            <li>Prioritized by the Product Owner</li>
+                            <li>Dynamic and constantly evolving</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sprint Backlog</td>
+                    <td>
+                        <ul>
+                            <li>Subset of the Product Backlog for the sprint</li>
+                            <li>Contains work committed to for the sprint</li>
+                            <li>Owned by the Development Team</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Increment</td>
+                    <td>
+                        <ul>
+                            <li>Sum of all completed backlog items</li>
+                            <li>Potentially shippable and usable product</li>
+                            <li>Reviewed at the end of each sprint</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <br>
-            <img src="Scrum_Pillars.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;">
-            <img src="Scrum_Values.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;">
-            <img src="Scrum_Flow.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;">  
-        <br>      
-        <br>    
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>3 * Roles</th>
-                        <th>Key Points</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Product Owner</td>
-                        <td>
-                            <ul>
-                                <li>Defines product goals and backlog</li>
-                                <li>Maximizes value for users and business</li>
-                                <li>Champions product vision</li>
-                                <li>Works with stakeholders</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Developer (Team Member)</td>
-                        <td>
-                            <ul>
-                                <li>Decides how to accomplish work</li>
-                                <li>Manages the sprint backlog</li>
-                                <li>Inspects and adapts daily</li>
-                                <li>Contributes to the sprint goal</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Scrum Master</td>
-                        <td>
-                            <ul>
-                                <li>Helps the team perform at their best</li>
-                                <li>Protects the team from distractions</li>
-                                <li>Coaches and facilitates meetings</li>
-                                <li>Reinforces agile principles</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th> 5 * Event</th>
-                        <th>Key Points</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Sprint Planning</td>
-                        <td>
-                            <ul>
-                                <li>Plan the work for the upcoming sprint</li>
-                                <li>Select backlog items for the sprint</li>
-                                <li>Create the sprint backlog</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Daily Scrum</td>
-                        <td>
-                            <ul>
-                                <li>Short daily meeting to synchronize the team</li>
-                                <li>Discuss progress, challenges, and plans</li>
-                                <li>15-minute time-boxed event</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Sprint Review</td>
-                        <td>
-                            <ul>
-                                <li>Review the increment with stakeholders</li>
-                                <li>Get feedback and discuss what's done</li>
-                                <li>Adapt the product backlog as needed</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Sprint Retrospective
-                        </td>
-                        <td>
-                            <ul>
-                                <li>Reflect on the sprint and team performance</li>
-                                <li>Identify improvements for the next sprint</li>
-                                <li>Closed-loop event for continuous improvement</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>The Sprint
-                        </td>
-                        <td>
-                            <ul>
-                                <li>The Sprint could be considered the container which the other events take place.</li>
-                                <li>Sprints usually range from 2 - 4 weeks but can vary depending on the project.</li>
-                               
-                            </ul>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>3 * Artifact</th>
-                        <th>Key Points</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Product Backlog</td>
-                        <td>
-                            <ul>
-                                <li>List of all desired product features</li>
-                                <li>Prioritized by the Product Owner</li>
-                                <li>Dynamic and constantly evolving</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Sprint Backlog</td>
-                        <td>
-                            <ul>
-                                <li>Subset of the Product Backlog for the sprint</li>
-                                <li>Contains work committed to for the sprint</li>
-                                <li>Owned by the Development Team</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Increment</td>
-                        <td>
-                            <ul>
-                                <li>Sum of all completed backlog items</li>
-                                <li>Potentially shippable and usable product</li>
-                                <li>Reviewed at the end of each sprint</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <br>
-        <h3>Applied 'Scrum'</h3>
-        <p>Initally we allocatd roles, one person assumed the role of product owner taking ownership of the product backlog, the remaining four members of the team rotated the scrum master role. All members of the team assumed the role of developer. We used four one week sprints, daily standups took place Monday - Friday via online video conferencing with cameras on. Sprint planning and estimation was based on hours, each developer showcased their work during sprint reviews and amended any work based on feedback. Sprint retrospectives highlighted process improvements which we put into the sprint backlog to apply during the next sprint. We developed Iteratively and delivered incrementally.  
-        </p>
+    <h3>Applied 'Scrum'</h3>
+    <p>Initally we allocatd roles, one person assumed the role of product owner taking ownership of the product backlog, the remaining four members of the team rotated the scrum master role. All members of the team assumed the role of developer. We used four one week sprints, daily standups took place Monday - Friday via online video conferencing with cameras on. Sprint planning and estimation was based on hours, each developer showcased their work during sprint reviews and amended any work based on feedback. Sprint retrospectives highlighted process improvements which we put into the sprint backlog to apply during the next sprint. We developed Iteratively and delivered incrementally.  
+    </p>
 
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="section3" id="Design_Thinking">
+        <!--- Design Thinking content here -->
+        <h2>The Design Thinking Process</h2> 
+    <p>Design thinking is a creative and user-centered approach to problem-solving that is often used in the context of web design and product development. It emphasizes understanding the needs and preferences of the end-users to create a more appealing, engaging and functional product.
+    </p>
+    <img src="User_Persona.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;">  
+    <img src="User_Journey_Mapping.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;"> 
+    <img src="Double_Diamond.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;">
+    <img src="Scamper.jpeg" alt="DSDM Roles" style="max-width: 25%; float: none;">
+    <br>
+    <br>
+    <br>
+    <h3>Applied 'Design Thinking Process'</h3>
+    <p>The design thinking process is made up of the problem space and the solution space and can be broken down into the following phases. 
+        <ol>
+        <li>
+          <strong>Empathize</strong>
+        </li>
+        <li>
+          <strong>Define</strong>
+        </li>
+        <li>
+          <strong>Ideate</strong>
+        </li>
+        <li>
+          <strong>Prototype</strong>
+        </li>
+        <li>
+          <strong>Test</strong>
+        </li>
+        <li>
+          <strong>Implement</strong>
+        </li>
+        <li>
+          <strong>Iterate</strong>
+        </li>
+      </ol>
+      By following the process we were able to explore both the problem space and the solution space identifying user pain points and exploiting opportunities. To aid us in the design process we used tools such as user persona cards, user journey mapping, double diamond and scamper models.
+      One of the key pain points identified was 'fragmented learning experience'.
+    </p>
 
-        <div class="section3" id="Design_Thinking">
-            <!--- Design Thinking content here -->
-            <h2>The Design Thinking Process</h2> 
-        <p>Design thinking is a creative and user-centered approach to problem-solving that is often used in the context of web design and product development. It emphasizes understanding the needs and preferences of the end-users to create a more appealing, engaging and functional product.
-        </p>
-        <img src="User_Persona.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;">  
-        <img src="User_Journey_Mapping.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;"> 
-        <img src="Double_Diamond.jpeg" alt="DSDM Roles" style="max-width: 25%; float: left;">
-        <img src="Scamper.jpeg" alt="DSDM Roles" style="max-width: 25%; float: none;">
-        <br>
-        <br>
-        <br>
-        <h3>Applied 'Design Thinking Process'</h3>
-        <p>The design thinking process is made up of the problem space and the solution space and can be broken down into the following phases. 
-            <ol>
-            <li>
-              <strong>Empathize</strong>
-            </li>
-            <li>
-              <strong>Define</strong>
-            </li>
-            <li>
-              <strong>Ideate</strong>
-            </li>
-            <li>
-              <strong>Prototype</strong>
-            </li>
-            <li>
-              <strong>Test</strong>
-            </li>
-            <li>
-              <strong>Implement</strong>
-            </li>
-            <li>
-              <strong>Iterate</strong>
-            </li>
-          </ol>
-          By following the process we were able to explore both the problem space and the solution space identifying user pain points and exploiting opportunities. To aid us in the design process we used tools such as user persona cards, user journey mapping, double diamond and scamper models.
-          One of the key pain points identified was 'fragmented learning experience'.
-        </p>
+    </div>
+    <br>
+    <br>
 
-        </div>
-        <br>
-        <br>
 
+</body>
+</html>
 
     </body>
 </html>
