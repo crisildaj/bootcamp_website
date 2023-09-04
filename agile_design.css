@@ -1,0 +1,170 @@
+/*agile_design.css*/
+body{
+    background-image: url("sky_background2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'Lato', sans-serif;
+    color:white;  
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mukta', sans-serif;
+}
+header {
+    display:inline-block;
+    background-image: url("sky_background2.jpeg");
+    padding: 0px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.logo {
+    text-align:left;
+}
+.logo img {
+    max-width: 200px;
+    margin-bottom: 0px;
+}
+.Technophobes h3{
+        color: white;
+        margin: 0;
+}
+.Page_Header h1{
+        text-align:center;
+        font-size: 30px;
+        color: white;
+        margin-top: 0px;
+}
+/* About Us, Help, Legal and Privacy Nav Bar */
+#pages {
+    position: absolute;
+    top: 10px; /* Adjust the top spacing as needed */
+    right: 10px; /* Adjust the right spacing as needed */
+}
+
+ul#pageList {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+}
+
+ul#pageList li.otherPages {
+    display: inline;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.3); /* Add a background color with transparency */
+    border-radius: 6px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+ul#pageList li.otherPages:hover {
+    background-color: white;
+    color: black;
+}
+.otherPages{
+    display:inline;
+    margin: 10px; 
+}
+#pageBackgrounds{
+    padding:0;
+    margin: 0;
+}
+.containers{
+    display:flex;
+    justify-content:space-around;
+}
+#aboutUs,#help,#privacy,#legal{
+    transition:0.5s;
+}
+#aboutUs:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px; 
+    padding:5px
+}
+#help:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px; 
+    padding:5px
+}
+#privacy:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px; 
+    padding:5px
+}
+#legal:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px; 
+    padding:5px
+}
+.section1, .section2, .section3 {
+    background-color:rgba(255, 255, 255, 1);
+    padding: 20px;
+    color: black;
+}
+.section1 h1 {
+    font-size: 30pt;
+    margin-top: 50px;
+    text-align: center;
+}
+.section1 h2 {
+    text-align:left;
+}  
+.section1 h3 {
+    text-align:left;
+} 
+.section1 p {
+    text-align: left;
+        /* Style for Scrum header section2 */
+}
+.section2 h2 {
+    text-align: left;
+        /* Style for Scrum definition in section2 */
+}
+
+.section2 p {
+    text-align: left;   
+}
+            /* Style for the tables in section2 */
+.section2 {
+    display: flex;
+    flex-wrap: wrap; /* Allow tables to wrap to the next line if needed */
+    justify-content: space-between; /* Distribute tables evenly */
+    align-items: flex-start; /* Align tables to the top */
+}
+
+.section2 table {
+    width: calc(33.33% - 20px); /* Set the width for each table (minus margin) */
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+        /* Style for table headers */
+.section2 th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+        /* Style for table cells */
+.section2 td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}  
+.section3 h2 {
+    text-align: left;
+}
+.section3 h3 {
+    text-align: left;
+}
+.Page_Footer {
+    background-image: url("sky_background2.jpeg");
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
