@@ -168,3 +168,22 @@ ul#pageList li.otherPages:hover {
     text-align: center;
     padding: 10px;
 }
+.container {
+    display: flex; /* Use flexbox to align the sections horizontally */
+    justify-content: space-between; /* Distribute space evenly between the sections */
+}
+
+.bulletpoints {
+    flex: 1; /* Allow sections to grow and fill available space evenly */
+    margin: 10px; /* Add some spacing between sections */
+}
+
+/* Style list items as needed */
+ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px; /* Add spacing between list items */
+}
