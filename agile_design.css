@@ -75,7 +75,7 @@ ul#pageList li.otherPages:hover {
     display:flex;
     justify-content:space-around;
 }
-#aboutUs,#help,#privacy,#legal{
+#aboutUs,#resources,#privacy,#legal{
     transition:0.5s;
 }
 #aboutUs:hover{
@@ -84,7 +84,7 @@ ul#pageList li.otherPages:hover {
     border-radius: 6px; 
     padding:5px
 }
-#help:hover{
+#resources:hover{
     background-color: white;
     color: black;
     border-radius: 6px; 
