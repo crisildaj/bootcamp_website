@@ -13,8 +13,6 @@ html,body{
     font-family: 'Mukta', sans-serif;
 }
 
-
-
 .Technophobes{
     color: white;
     margin-top: 15px;
@@ -31,27 +29,13 @@ html,body{
 
 .header_flexbox {
     display: flex;
-    
 }
-
 
 /* About Us, Help, Legal and Privacy Nav Bar */
-ul#pageList li.otherPages {
-    display: inline;
-    margin: 10px;
-    cursor: pointer;
- }
-ul#pageList {
-    padding: 0;
-    margin: 0;
-}
 #pages{
     position: absolute;
-    top: 10px; /* Adjust the top spacing as needed */
-    right: 10px; /* Adjust the right spacing as needed */
-}
-ul#pageList li:nth-child(4){
-    margin-right:50px;
+    top: 10px; 
+    right: 10px; 
 }
 .otherPages{
     display:inline;
@@ -65,7 +49,7 @@ ul#pageList li:nth-child(4){
     display:flex;
     justify-content:space-around;
 }
-#aboutUs,#resources,#privacy,#legal{
+#aboutUs,#help,#privacy,#legal{
     transition:0.5s;
 }
 #aboutUs:hover{
@@ -74,7 +58,7 @@ ul#pageList li:nth-child(4){
     border-radius: 6px; 
     padding:5px
 }
-#resources:hover{
+#help:hover{
     background-color: white;
     color: black;
     border-radius: 6px; 
@@ -95,7 +79,6 @@ ul#pageList li:nth-child(4){
 
 h1{
     font-size: 50px;
-
 }
 
 h1,p{
@@ -103,35 +86,6 @@ h1,p{
     text-align: center;
 }
 
-/* Makes whole container of team members in to flexbox */
-.teams{ 
-    display:flex;
-    justify-content: space-around;
-}
-
-.teamMember{
-    background-color: white;
-    color: black;
-    width:250px;
-    height:350px;
-    border-radius:50px;
-    transition:0.5s;
-    padding: 20px;
-}
-
-.teamMember > h2{
-    text-align: center;
-}
-
-.teamMember:hover{
-    width:300px;
-    height:400px;
-    padding: 20px;
-}
-
-.descrip{
-    text-align: left;
-}
 
 .Page_Footer {
     background-image: url("sky_background2.jpeg");
@@ -141,3 +95,33 @@ h1,p{
     margin-top: 40px; 
 }
 
+/* 695px x 820px */
+
+#firstInfo {
+    background-color: white;
+    color: black;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 20px 40px 10px 40px;
+    width: 695px;
+    padding-top: -100px; 
+    border: #0072c9;
+    border-style: solid;
+    border-width: 10px;
+}
+
+
+.images{
+    display: flex;
+    align-content: center;
+
+}
+
+#jsFunction{
+    background-color: white;
+}
+
+
+.infoHeadings{
+    text-align: center;
+}
