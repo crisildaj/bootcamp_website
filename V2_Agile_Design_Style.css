@@ -143,7 +143,15 @@ color: black;
     border-width: 10px;
 }
 
-.img-caption {
+ul {
+    margin-right: 70px;
+    margin-left: 10px; 
+}
+
+/*Styling for each image caption box*/ 
+.img-caption_DSDM_Process {
+    position: absolute;
+    right: 35px;
     width:max-content;
     background-color: white;
     color: black;
@@ -155,11 +163,119 @@ color: black;
     border-width: 7px;
     border-radius: 5px;
 }
-
-ul {
-    margin-right: 70px;
-    margin-left: 10px; 
+.img-caption_DSDM_Roles {
+    position: absolute;
+    right: 20px;
+    width:max-content;
+    background-color: white;
+    color: black;
+    justify-content:center;
+    /* margin: 300px 10px 10px 1150px; */
+    overflow: hidden;
+    border: #0072c9;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 5px;
 }
+.img-caption_Project_TimeLine{
+    position: absolute;
+    right: 30px;
+    width:max-content;
+    background-color: white;
+    color: black;
+    justify-content:center;
+    /* margin: 300px 10px 10px 1150px; */
+    overflow: hidden;
+    border: #0072c9;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 5px;
+}
+.img-caption_ScrumFlow {
+    position: absolute;
+    right: 70px;
+    width:max-content;
+    background-color: white;
+    color: black;
+    justify-content:center;
+    /* margin: 300px 10px 10px 1150px; */
+    overflow: hidden;
+    border: #0072c9;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 5px;
+}
+.img-caption_ScrumValues {
+    position: absolute;
+    right: 30px;
+    width:max-content;
+    background-color: white;
+    color: black;
+    justify-content:center;
+    /* margin: 300px 10px 10px 1150px; */
+    overflow: hidden;
+    border: #0072c9;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 5px;
+}
+.img-caption_ScrumPillars {
+    position: absolute;
+    right: 65px;
+    width:max-content;
+    background-color: white;
+    color: black;
+    justify-content:center;
+    /* margin: 300px 10px 10px 1150px; */
+    overflow: hidden;
+    border: #0072c9;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 5px;
+}
+.img-caption_UserPersona {
+    position: absolute;
+    right: 50px;
+    width:max-content;
+    background-color: white;
+    color: black;
+    justify-content:center;
+    /* margin: 300px 10px 10px 1150px; */
+    overflow: hidden;
+    border: #0072c9;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 5px;
+}
+.img-caption_UserJourney {
+    position: absolute;
+    right: 40px;
+    width:max-content;
+    background-color: white;
+    color: black;
+    justify-content:center;
+    /* margin: 300px 10px 10px 1150px; */
+    overflow: hidden;
+    border: #0072c9;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 5px;
+}
+.img-caption_DoubleDiamond {
+    position: absolute;
+    right: 30px;
+    width:max-content;
+    background-color: white;
+    color: black;
+    justify-content:center;
+    /* margin: 300px 10px 10px 1150px; */
+    overflow: hidden;
+    border: #0072c9;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 5px;
+}
+/*Styling for each Image*/
 .DSDM_Image1 {
     position: absolute;
     top: 200px;
@@ -168,7 +284,7 @@ ul {
 .DSDM_Image2 {
     position: absolute;
     top: 500px;
-    right: 0px;
+    right: 40px;
 }
 .DSDM_Image3 {
     position: absolute;
@@ -177,17 +293,17 @@ ul {
 }
 .Scrum_Image1 {
     position: absolute;
-    top: 1500px;
+    top: 1550px;
     right: 10px;
 }
 .Scrum_Image2 {
     position: absolute;
-    top: 1750px;
+    top: 1800px;
     right:40px;
 }
 .Scrum_Image3 {
     position: absolute;
-    top: 2000px;
+    top: 2050px;
     right: 10px;
 }
 .Design_Image1 {
@@ -197,12 +313,12 @@ ul {
 }
 .Design_Image2 {
     position: absolute;
-    top: 3200px;
+    top: 3175px;
     right: 10px;
 }
 .Design_Image3 {
     position: absolute;
-    top: 3500px;
+    top: 3450px;
     right: 10px;
 }
 
