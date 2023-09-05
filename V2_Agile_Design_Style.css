@@ -144,63 +144,67 @@ color: black;
 }
 
 .img-caption {
-    width:fit-content;
+    width:max-content;
     background-color: white;
     color: black;
-    justify-content: center;
+    justify-content:center;
     /* margin: 300px 10px 10px 1150px; */
     overflow: hidden;
     border: #0072c9;
     border-style: solid;
     border-width: 7px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 ul {
     margin-right: 70px;
     margin-left: 10px; 
 }
-
-.DSDM_Image1,.DSDM_Image2,.DSDM_Image3{
-    overflow: hidden;
-    width: 30vw;
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center elements horizontally */
-    margin-left: auto; /* Push the column to the right */
-    margin-top:0;
-    margin-right: 20px; /* Add some spacing between the flexbox and the column */
-    padding: 10px; /* Add padding if needed */
+.DSDM_Image1 {
+    position: absolute;
+    top: 200px;
+    right: 10px;
 }
-
-
-
-
-.Scrum_Image1,.Scrum_Image2,.Scrum_Image3{
-    overflow: hidden;
-    width: 30vw;
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center elements horizontally */
-    margin-left: auto; /* Push the column to the right */
-    margin-top: 0;
-    margin-right: 20px; /* Add some spacing between the flexbox and the column */
-    padding: 10px; /* Add padding if needed */
+.DSDM_Image2 {
+    position: absolute;
+    top: 500px;
+    right: 0px;
 }
-
-
-.Design_Image1,.Design_Image2, .Design_Image3{
-    overflow:hidden;
-    width: 30vw;
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center elements horizontally */
-    margin-left: auto; /* Push the column to the right */
-    margin-top: 0;
-    margin-right: 20px; /* Add some spacing between the flexbox and the column */
-    padding: 10px; /* Add padding if needed */
+.DSDM_Image3 {
+    position: absolute;
+    top: 800px;
+    right: 10px;
 }
-
+.Scrum_Image1 {
+    position: absolute;
+    top: 1500px;
+    right: 10px;
+}
+.Scrum_Image2 {
+    position: absolute;
+    top: 1750px;
+    right:40px;
+}
+.Scrum_Image3 {
+    position: absolute;
+    top: 2000px;
+    right: 10px;
+}
+.Design_Image1 {
+    position: absolute;
+    top: 2900px;
+    right: 10px;
+}
+.Design_Image2 {
+    position: absolute;
+    top: 3200px;
+    right: 10px;
+}
+.Design_Image3 {
+    position: absolute;
+    top: 3500px;
+    right: 10px;
+}
 
 /*styling for footer and copy right*/
 .Page_Footer {
