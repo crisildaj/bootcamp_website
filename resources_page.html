@@ -131,6 +131,22 @@
         
 }
 
+#miroboard {
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.5vw;
+    color: black;
+    margin-right: 20vw;
+    margin-left: 25vw;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    border-color: #ff2744;
+    border-style: solid;
+    border-width: 5px;
+    width: auto;
+}
+
 #container1,#container2,#container3,#container4,#container5{
     display:flex;
     justify-content: space-around;
@@ -158,13 +174,15 @@
     border-radius:30px;
     color: black;
     font-style: bold;
-    margin-left: 30px;
+    margin-left: -40px;
     padding: 10px;
     width: 25%;
     border-color: #0072c9;
     border-style: solid;
     border-radius: 30px; 
     border-width: 5px;
+    margin-top: 10px;
+    
     /* justify-content: center; */
     /* align-items: center; */
 
@@ -185,10 +203,23 @@
     margin: 30px;
     border-radius: 20px;
     margin-top: 5px;
+    margin-left: -40px;
+    border-color: red;
+    border-style: solid;
+    
+   
 } 
 
 p {
     margin: 30px;
+}
+
+a {
+    font-size: 15pt;
+}
+
+li {
+    list-style-type: none;
 }
 
 </style>
@@ -216,7 +247,13 @@ p {
             </ul>
         </div>
 
-        <h1 style="text-align: center; font-size: 30pt;">Resources</h1>
+        <h1 style="text-align: center; font-size: 30pt; margin-top: -20px;">Resources</h1>
+        <div>
+        <p id="miroboard">
+            <strong style="font-size: 20pt;">Miro Board: </strong>
+            <a href="https://miro.com/app/board/uXjVMs8V3HI=/?share_link_id=66356533388">https://miro.com/app/board/uXjVMs8V3HI=/?share_link_id=66356533388</a>
+        </p>
+        </div>
     </header>    
 
     
@@ -229,7 +266,18 @@ p {
                     <h2>Agile Methodologies & Design Thinking</h2>
                 </div>
                 <div class="link_card">
-                    <p>idsjflkajsdlkfjhas;dhfj</p>
+                    <ul>
+                        <!-- <h2 style="margin-left: -20px; margin-top: -5px;"><strong>Scrum:</strong></h2> -->
+                        <li><a href="https://www.scrum.org/">scrum.org</a></li>
+                        </li><a href="https://www.scrumalliance.org/">Scrum Alliance</a><li>
+                        </li><a href="https://www.pearson.com/en-gb/subject-catalog/p/mastering-professional-scrum-a-practitioners-guide-to-overcoming-challenges-and-maximizing-the-benefits-of-agility/P200000009550/9780134841526?gclid=CjwKCAjwo9unBhBTEiwAipC11-sXU8JU8Vvvw12_z0PnRvCLP0t-onpQNK_6-iVqYMVe84rq9E9AbxoCoG0QAvD_BwE&gclsrc=aw.ds">Mastering Professional Scrum</a><li>
+                        </li><a href="https://www.pearson.com/en-gb/subject-catalog/p/professional-product-owner-the-leveraging-scrum-as-a-competitive-advantage/P200000009533/9780134686479?gclid=CjwKCAjwo9unBhBTEiwAipC1148GQCsxwn2HaV0UFCZ0WCVtE-vjhpjF_EvCupU7ZATyb_nZ9FgcoRoCuTUQAvD_BwE&gclsrc=aw.ds">The Professional Product Owner</a><li></li>    
+                        <li><a href="https://www.agilebusiness.org/">Agile Business Consortium</a></li>
+                        <li><a href="https://apmg-international.com/">APMG International</a></li>
+                        <li><a href="https://store.apmg-international.com/study-materials/agile-project-management">Agile Project Management Handbook</a></li>
+                        <li><a href="https://apmg-international.com/">Value Proposition Design</a></li>
+                        <li><a href="https://www.wiley.com/en-gb/The+Design+Thinking+Toolbox%3A+A+Guide+to+Mastering+the+Most+Popular+and+Valuable+Innovation+Methods-p-9781119629214">The Design Thinking Toolbox</a></li>
+                    </ul>
                 </div>   
             </div>
         </div>
@@ -240,7 +288,10 @@ p {
                     <h2>Business Analysis</h2>
                 </div>
                 <div class="link_card">
-                    <p>idsjflkajsdlkfjhas;dhfj</p>
+                    <ul>
+                        <li><a href="https://store.apmg-international.com/study-materials/agile-business-analysts">AMPG 'Agile Business Analyst Handbook'</a></li>
+                        <li><a href="https://shop.bcs.org/store/221/detail/workgroup?id=3-221-9781780175102">BCS (British Computer Society) 'Business Analysis 4th Edition</a></li>
+                    </ul>
                 </div>    
             </div>
         </div>
@@ -252,7 +303,10 @@ p {
                     <h2>Web Development</h2>
                 </div>
                 <div class="link_card">
-                    <p>idsjflkajsdlkfjhas;dhfj</p>
+                    <ul>
+                    <li><a href="https://www.w3schools.com/html/"">HTML</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"">CSS</a></li>
+                    </ul>
                 </div>    
             </div>
         </div>
