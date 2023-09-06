@@ -53,9 +53,6 @@ body{
     display: flex;
 
 }
-
-
-
     /* nav bar styling */
     /* About Us, Resources, Legal and Privacy Nav Bar */
 #pages{
@@ -151,7 +148,7 @@ ul {
 /*Styling for each image caption box*/ 
 .img-caption_DSDM_Process {
     position: absolute;
-    right: 35px;
+    right: 70px;
     width:max-content;
     background-color: white;
     color: black;
@@ -165,7 +162,7 @@ ul {
 }
 .img-caption_DSDM_Roles {
     position: absolute;
-    right: 20px;
+    right: 50px;
     width:max-content;
     background-color: white;
     color: black;
@@ -179,7 +176,7 @@ ul {
 }
 .img-caption_Project_TimeLine{
     position: absolute;
-    right: 30px;
+    right: 60px;
     width:max-content;
     background-color: white;
     color: black;
@@ -193,7 +190,7 @@ ul {
 }
 .img-caption_ScrumFlow {
     position: absolute;
-    right: 70px;
+    right:90px;
     width:max-content;
     background-color: white;
     color: black;
@@ -207,7 +204,7 @@ ul {
 }
 .img-caption_ScrumValues {
     position: absolute;
-    right: 30px;
+    right: 70px;
     width:max-content;
     background-color: white;
     color: black;
@@ -221,7 +218,7 @@ ul {
 }
 .img-caption_ScrumPillars {
     position: absolute;
-    right: 65px;
+    right: 80px;
     width:max-content;
     background-color: white;
     color: black;
@@ -283,7 +280,7 @@ ul {
 }
 .DSDM_Image2 {
     position: absolute;
-    top: 500px;
+    top: 550px;
     right: 40px;
 }
 
@@ -291,17 +288,17 @@ ul {
 
 .DSDM_Image3 {
     position: absolute;
-    top: 800px;
+    top: 975px;
     right: 10px;
 }
 .Scrum_Image1 {
     position: absolute;
-    top: 1550px;
+    top: 1350px;
     right: 10px;
 }
 .Scrum_Image2 {
     position: absolute;
-    top: 1800px;
+    top: 1700px;
     right:40px;
 }
 .Scrum_Image3 {
@@ -311,12 +308,12 @@ ul {
 }
 .Design_Image1 {
     position: absolute;
-    top: 2900px;
+    top: 2800px;
     right: 10px;
 }
 .Design_Image2 {
     position: absolute;
-    top: 3175px;
+    top: 3150px;
     right: 10px;
 }
 .Design_Image3 {
