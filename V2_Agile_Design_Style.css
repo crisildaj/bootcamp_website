@@ -367,8 +367,7 @@ ul {
 
 /*styling for footer and copy right*/
 .Page_Footer {
-    background-image: url("sky_background2.jpeg");
-    color: white;
+    background-color: #071b42;
     text-align: center;
     padding: 5px;
     margin-top: 40px;
