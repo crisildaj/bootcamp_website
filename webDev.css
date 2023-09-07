@@ -110,17 +110,25 @@ h1,p{
     border-width: 10px;
 }
 
-
 .images{
     display: flex;
-    align-content: center;
+    flex-direction: column;
+}
 
+.img{
+    margin: 30px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: white;
+}
+
+#topHalf{
+    display: flex;
 }
 
 #jsFunction{
     background-color: white;
 }
-
 
 .infoHeadings{
     text-align: center;
