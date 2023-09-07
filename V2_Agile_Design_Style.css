@@ -277,49 +277,92 @@ ul {
     position: absolute;
     top: 200px;
     right: 10px;
+    cursor: zoom-in;
+}
+.DSDM_Image1:hover{
+    transform:scale(1.3); 
+    transition: 0.5s ease-in-out;
 }
 .DSDM_Image2 {
     position: absolute;
     top: 550px;
     right: 40px;
+    cursor: zoom-in;
 }
-
-    
-
+.DSDM_Image2:hover{
+    transform:scale(1.3); 
+    transition: 0.5s ease-in-out;
+}
 .DSDM_Image3 {
     position: absolute;
     top: 975px;
     right: 10px;
+    cursor: zoom-in;
+}
+.DSDM_Image3:hover{
+    transform:scale(1.3); 
+    transition: 0.5s ease-in-out;
 }
 .Scrum_Image1 {
     position: absolute;
     top: 1350px;
     right: 10px;
+    cursor: zoom-in;
+}
+.Scrum_Image1:hover{
+    transform:scale(1.3); 
+    transition: 0.5s ease-in-out;
 }
 .Scrum_Image2 {
     position: absolute;
     top: 1700px;
     right:40px;
+    cursor: zoom-in;
+}
+.Scrum_Image2:hover{
+    transform:scale(1.3); 
+    transition: 0.5s ease-in-out;
 }
 .Scrum_Image3 {
     position: absolute;
     top: 2050px;
     right: 10px;
+    cursor: zoom-in;
+}
+.Scrum_Image3:hover{
+    transform:scale(1.3); 
+    transition: 0.5s ease-in-out;
 }
 .Design_Image1 {
     position: absolute;
     top: 2800px;
     right: 10px;
+    cursor: zoom-in; 
 }
+.Design_Image1:hover{
+    transform:scale(1.3);
+    transition: 0.5s ease-in-out;
+}
+
 .Design_Image2 {
     position: absolute;
     top: 3150px;
     right: 10px;
+    cursor: zoom-in;
+}
+.Design_Image2:hover{
+    transform:scale(1.3); 
+    transition: 0.5s ease-in-out;
 }
 .Design_Image3 {
     position: absolute;
     top: 3450px;
     right: 10px;
+    cursor: zoom-in;
+}
+.Design_Image3:hover{
+    transform:scale(1.3); 
+    transition: 0.5s ease-in-out;
 }
 
 /*styling for footer and copy right*/
