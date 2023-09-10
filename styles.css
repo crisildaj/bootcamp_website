@@ -88,12 +88,20 @@ h1 {
 }
 
 #teamNames{
-    font-size: 20px;
+    display: flex;
+    font-size: 30px;
+    justify-content: center; 
 }
 
-#teamNames,#intro{
+
+#intro{
     display: flex;
     justify-content: center;
+}
+
+.name{
+    display: inline-block;
+    margin: 25px;
 }
 
 #introP{
@@ -160,5 +168,13 @@ h1 {
 
 ul{
     list-style-type: none;
+}
+
+.Page_Footer {
+    background-image: url("sky_background2.jpeg");
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 40px; 
 }
 
