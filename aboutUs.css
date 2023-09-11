@@ -2,7 +2,7 @@ html,body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image: url("sky_background2.jpeg");
+    background-image: url("/images/sky_background2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -128,7 +128,7 @@ h1,p{
 }
 
 .Page_Footer {
-    background-image: url("sky_background2.jpeg");
+    background-image: url("/images/sky_background2.jpeg");
     color: white;
     text-align: center;
     padding: 5px;
