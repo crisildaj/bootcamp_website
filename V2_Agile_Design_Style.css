@@ -38,6 +38,14 @@ body{
     text-align: center;
     font-size:xx-small;
 }
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
 /*main header Agile DSDM,Scrum,Design Thinking Aligned center*/
 .header-title {
     text-align: center;
@@ -160,9 +168,9 @@ ul {
     border-width: 7px;
     border-radius: 5px;
 }
-.img-caption_DSDM_Roles {
+.img-caption_DSDM_Scrum_Team {
     position: absolute;
-    right: 50px;
+    right: 40px;
     width:max-content;
     background-color: white;
     color: black;
@@ -230,6 +238,21 @@ ul {
     border-width: 7px;
     border-radius: 5px;
 }
+.img-caption_Wireframe {
+    position: absolute;
+    right: 80px;
+    width:max-content;
+    background-color: white;
+    color: black;
+    justify-content:center;
+    /* margin: 300px 10px 10px 1150px; */
+    overflow: hidden;
+    border: #0072c9;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 5px;
+}
+
 .img-caption_UserPersona {
     position: absolute;
     right: 50px;
@@ -272,6 +295,20 @@ ul {
     border-width: 7px;
     border-radius: 5px;
 }
+.img-caption_Kanban {
+    position: absolute;
+    right: 30px;
+    width:max-content;
+    background-color: white;
+    color: black;
+    justify-content:center;
+    /* margin: 300px 10px 10px 1150px; */
+    overflow: hidden;
+    border: #0072c9;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 5px;
+}
 /*Styling for each Image*/
 .DSDM_Image1 {
     position: absolute;
@@ -285,8 +322,8 @@ ul {
 }
 .DSDM_Image2 {
     position: absolute;
-    top: 550px;
-    right: 40px;
+    top: 600px;
+    right: 20px;
     cursor: zoom-in;
 }
 .DSDM_Image2:hover{
@@ -295,7 +332,7 @@ ul {
 }
 .DSDM_Image3 {
     position: absolute;
-    top: 975px;
+    top: 900px;
     right: 10px;
     cursor: zoom-in;
 }
@@ -305,7 +342,7 @@ ul {
 }
 .Scrum_Image1 {
     position: absolute;
-    top: 1350px;
+    top: 1400px;
     right: 10px;
     cursor: zoom-in;
 }
@@ -315,8 +352,8 @@ ul {
 }
 .Scrum_Image2 {
     position: absolute;
-    top: 1700px;
-    right:40px;
+    top: 1675px;
+    right:30px;
     cursor: zoom-in;
 }
 .Scrum_Image2:hover{
@@ -325,17 +362,28 @@ ul {
 }
 .Scrum_Image3 {
     position: absolute;
-    top: 2050px;
-    right: 10px;
+    top: 1975px;
+    right: 20px;
     cursor: zoom-in;
 }
 .Scrum_Image3:hover{
     transform:scale(1.3); 
     transition: 0.5s ease-in-out;
 }
+.Scrum_Image4 {
+    position: absolute;
+    top: 2240px;
+    right:70px;
+    cursor: zoom-in;
+}
+.Scrum_Image4:hover{
+    transform:scale(1.3); 
+    transition: 0.5s ease-in-out;
+}
+
 .Design_Image1 {
     position: absolute;
-    top: 2800px;
+    top: 2600px;
     right: 10px;
     cursor: zoom-in; 
 }
@@ -346,7 +394,7 @@ ul {
 
 .Design_Image2 {
     position: absolute;
-    top: 3150px;
+    top: 2900px;
     right: 10px;
     cursor: zoom-in;
 }
@@ -356,11 +404,21 @@ ul {
 }
 .Design_Image3 {
     position: absolute;
-    top: 3450px;
+    top: 3200px;
     right: 10px;
     cursor: zoom-in;
 }
 .Design_Image3:hover{
+    transform:scale(1.3); 
+    transition: 0.5s ease-in-out;
+}
+.Design_Image4 {
+    position: absolute;
+    top: 3500px;
+    right: 10px;
+    cursor: zoom-in;
+}
+.Design_Image4:hover{
     transform:scale(1.3); 
     transition: 0.5s ease-in-out;
 }
