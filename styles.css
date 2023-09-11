@@ -40,9 +40,33 @@ h1 {
 /* About Us, Resources, Legal and Privacy Nav Bar */
 #pages{
     position: absolute;
-    top: 10px; 
-    right: 10px; 
+    top: 10px; /* Adjust the top spacing as needed */
+    right: 10px; /* Adjust the right spacing as needed */
 }
+
+ul#pageList {
+list-style: none; /* Remove default list styles */
+padding: 0;
+margin: 0;
+}
+
+ul#pageList li:nth-child(4){
+    margin-right:50px;
+    margin-bottom: -700px;
+}
+
+ul#pageList li.otherPages {
+display: inline;
+margin: 10px;
+cursor: pointer;
+
+}
+
+ul#pageList li.otherPages:hover {
+background-color: white;
+color: black;
+}
+
 .otherPages{
     display:inline;
     margin: 10px; 
@@ -64,7 +88,7 @@ h1 {
     justify-content:space-around;
 }
 #aboutUs,#resources,#legalPrivacy{
-    transition:0.5s;
+    transition:0.2s;
 }
 #aboutUs:hover{
     background-color: white;
