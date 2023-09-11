@@ -1,5 +1,6 @@
 from flask import Flask, Response, request, render_template
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
+app.config['STATIC_FOLDER'] = 'static'
 
 @app.route('/')
 @app.route('/home', methods=['GET'])
