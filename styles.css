@@ -37,7 +37,9 @@ h1 {
 }
 
 
-/* About Us, Resources, Legal and Privacy Nav Bar */
+
+/* nav bar styling */
+/* About Us, Help, Legal and Privacy Nav Bar */
 #pages{
     position: absolute;
     top: 10px; /* Adjust the top spacing as needed */
