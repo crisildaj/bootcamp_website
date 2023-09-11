@@ -1,10 +1,13 @@
-from flask import Flask, Response, request, render_template
+from flask import Flask, render_template
 app = Flask(__name__)
+
+
 
 @app.route('/')
 @app.route('/home', methods=['GET'])
 def home():
     return render_template('index.html', title='Technophobes')
+
 
 if __name__ == "__main__":
     # Execute only if ran directly as a program
