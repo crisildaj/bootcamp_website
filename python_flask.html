@@ -154,6 +154,10 @@
         color: white;
         text-decoration: none;
     }
+
+    .nav:hover{
+    color:black;
+}
     
     h1{
         font-size: 50px;
@@ -213,7 +217,7 @@
     /* styling for images div */
     .images {
         margin-left: 50vw;
-        margin-top: -35vw;
+        margin-top: -90vw;
         
         /* border-radius: 20px;
         border-style: solid;
@@ -239,7 +243,7 @@
     color: white;
     text-align: center;
     padding: 5px;
-    margin-top: 0.5vw;
+    margin-top: 22vw;
     /* position: fixed; */
     bottom: 0;
     align-items: baseline;
@@ -278,9 +282,9 @@
         <!-- nav bar -->
         <div id="pages">
             <ul id="pageList">
-                <li class="otherPages" id="aboutUs"><a href="aboutUs.html">About Us</a></li>
-                <li class="otherPages"  id="resources"><a href="resources_page.html">Resources</a></li>
-                <li class="otherPages" id="legalprivacy"><a href="legal_page.html">Legal & Privacy</a></li>
+                <li class="otherPages" id="aboutUs"><a class="nav" href="aboutUs.html">About Us</a></li>
+                <li class="otherPages"  id="resources"><a class="nav" href="resources_page.html">Resources</a></li>
+                <li class="otherPages" id="legalprivacy"><a class="nav" href="legal_page.html">Legal & Privacy</a></li>
             </ul>
         </div>
 
@@ -300,23 +304,49 @@
                 <ul style="font-size: 15pt;">
                     <li> Assigning data to variables and using methods - use dir(object) to identify the variables that can be used</li>
                     <br>
-                    <li> Using for loops, while loops and conditional if statements 
-                        <br>
-                        - indentation is important! 
-                        <br>
-                        - for loops and while loops are used in different circumstances</li>
+                    <li> Using for loops, while loops and conditional if statements </li>
                     <br>
                     <li> String handling: slicing, splitting, stripping, etc. </li>
                     <br>
                     <li> Python collection tyes: tuples, lists, sets and dictionaries </li>
                     <br>
-                    <li> Data storage and file handling </li>
+                    <li> Data storage and file handling
+                        <br>
+                        - opening files and extracting specific information from them
+                        <br>
+                        - lopping through a file to get a list of lines or words
+                     </li>
                     <br>
-                    <li> Regular expressions</li>
+                    <li> Regular expressions are used to match or search for characters in a string (need to import the re module)
+                    </li>
                     <br> 
-                    <li> Functions, classes and OOP</li>
+                    <li> Functions allows you to group a block of code with repititive tasks together</li>
                     <br>  
-                    <li> The Flask framework</li>
+                    <li> Classes are used to group functionality together 
+                        <br>
+                        - usually a group of functions
+                        <br>
+                        - the __init__() function is used to initialise the function
+                        <br>
+                        <img src="class.png" style="margin-left: 5vw;">
+                    </li>
+
+                    <br>
+                    <li> The Flask framework
+                        <br>
+                        - allows you to create HTML templates to structure your webpage 
+                        <br>
+                        - makes use of HTTP methods like GET and POST; 
+                        <br>
+                        - GET is used to return data from the server (the default method)  
+                        <br>
+                        - POST is used to handle form data
+                        <br>
+                        - planning to incorporate it properly in the next sprint if we had more time
+                        <br>
+                        <img src="flask_diagram.jpeg">
+                    </li>
+
                     <br>  
                     
                 </ul>
@@ -326,14 +356,18 @@
         <!-- image -->
         <div class="images">
             <img src="dir(object).png" alt = "screenshot of code" class="screenshots" style="height: 400px; width: 600px; margin-top: -101px;">
-            <div class="img-caption">
+            <div class="img-caption" style="margin-bottom: 100px;">
                 <p style="margin-left: 0px; margin-right: 5px; font-size: 15pt;">Running dir(string) lists the methods you can use on a string</p>
             </div>
+            
+            <!-- <img src="flask_diagram.jpeg" alt = "screenshot of code" class="screenshots" style="height: 400px; width: 750px; margin-top: 3vw;">
+            <div class="img-caption">
+                <p style="margin-left: 0px; margin-right: 5px; font-size: 15pt;">How the Flask framework works</p>
+            </div> -->
             <img src="flask_screenshot.png" alt = "screenshot of code" class="screenshots" style="height: 400px; width: 750px; margin-top: 3vw;">
             <div class="img-caption">
                 <p style="margin-left: 0px; margin-right: 5px; font-size: 15pt;">How the Flask framework was used in building this website</p>
             </div>
-            
         </div>
 
 </div>          

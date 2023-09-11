@@ -46,6 +46,9 @@ a:visited {
     color: white;
     text-decoration: none;
 }
+.nav:hover{
+    color: black;
+}
 /*main header Agile DSDM,Scrum,Design Thinking Aligned center*/
 .header-title {
     text-align: center;
