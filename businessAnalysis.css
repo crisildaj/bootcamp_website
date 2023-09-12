@@ -2,7 +2,7 @@ html,body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image: url("sky_background2.jpeg");
+    background-image: url("/images/sky_background2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -88,7 +88,7 @@ h1,p{
 
 
 .Page_Footer {
-    background-image: url("sky_background2.jpeg");
+    background-image: url("/images/sky_background2.jpeg");
     color: white;
     text-align: center;
     padding: 5px;
@@ -103,16 +103,18 @@ h1,p{
     justify-content: center;
     border-radius: 50px;
     margin: 20px 40px 10px 40px;
-    width: 695px;
-    padding-top: -100px; 
+    /* width: 695px; */
+    /* padding-top: -100px;  */
     border: #0072c9;
     border-style: solid;
     border-width: 10px;
+    /* width: 50vw; */
 }
 
 .images{
     display: flex;
     flex-direction: column;
+    /* margin-left: 10vw; */
 }
 
 .img{

@@ -15,7 +15,7 @@ html{
   hsl(45deg 100% 50%) 89%,
   hsl(55deg 100% 50%) 100%  
 );*/
-    background-image: url("sky_background2.jpeg");
+    background-image: url("/images/sky_background2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family:'Lato', sans-serif;
@@ -24,3 +24,4 @@ html{
     font-family: 'Lato', sans-serif;
     font-family: 'Mukta', sans-serif;
 }
+

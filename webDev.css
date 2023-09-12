@@ -2,7 +2,7 @@ html,body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image: url("sky_background2.jpeg");
+    background-image: url("/images/sky_background2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -64,13 +64,7 @@ html,body{
     border-radius: 6px; 
     padding:5px
 }
-#privacy:hover{
-    background-color: white;
-    color: black;
-    border-radius: 6px; 
-    padding:5px
-}
-#legal:hover{
+#legalPrivacy:hover{
     background-color: white;
     color: black;
     border-radius: 6px; 
@@ -88,7 +82,7 @@ h1,p{
 
 
 .Page_Footer {
-    background-image: url("sky_background2.jpeg");
+    background-image: url("/images/sky_background2.jpeg");
     color: white;
     text-align: center;
     padding: 5px;
@@ -113,6 +107,7 @@ h1,p{
 .images{
     display: flex;
     flex-direction: column;
+    margin-right: -50px;
     
 }
 
