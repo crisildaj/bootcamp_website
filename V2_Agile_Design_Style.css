@@ -333,8 +333,8 @@ ul {
 /*Styling for each Image*/
 .DSDM_Image1 {
     position: absolute;
-    top: 200px;
-    right: 10px;
+    top: 250px;
+    right: 500px;
     cursor: zoom-in;
 }
 .DSDM_Image1:hover{
@@ -343,8 +343,8 @@ ul {
 }
 .DSDM_Image2 {
     position: absolute;
-    top: 600px;
-    right: 20px;
+    top: 250px;
+    right: 100px;
     cursor: zoom-in;
 }
 .DSDM_Image2:hover{
@@ -353,8 +353,8 @@ ul {
 }
 .DSDM_Image3 {
     position: absolute;
-    top: 900px;
-    right: 10px;
+    top: 680px;
+    right: 250px;
     cursor: zoom-in;
 }
 .DSDM_Image3:hover{
@@ -363,8 +363,8 @@ ul {
 }
 .Scrum_Image1 {
     position: absolute;
-    top: 1400px;
-    right: 10px;
+    top: 1050px;
+    right: 500px;
     cursor: zoom-in;
 }
 .Scrum_Image1:hover{
@@ -373,8 +373,8 @@ ul {
 }
 .Scrum_Image2 {
     position: absolute;
-    top: 1675px;
-    right:30px;
+    top: 1050px;
+    right:80px;
     cursor: zoom-in;
 }
 .Scrum_Image2:hover{
@@ -383,8 +383,8 @@ ul {
 }
 .Scrum_Image3 {
     position: absolute;
-    top: 1975px;
-    right: 20px;
+    top: 1450px;
+    right: 500px;
     cursor: zoom-in;
 }
 .Scrum_Image3:hover{
@@ -393,8 +393,8 @@ ul {
 }
 .Scrum_Image4 {
     position: absolute;
-    top: 2240px;
-    right:70px;
+    top: 1450px;
+    right:100px;
     cursor: zoom-in;
 }
 .Scrum_Image4:hover{
@@ -402,10 +402,10 @@ ul {
     transition: 0.5s ease-in-out;
 }
 
-.Design_Image1 {
+.Design_Image1{
     position: absolute;
-    top: 2600px;
-    right: 10px;
+    top: 1900px;
+    right: 500px;
     cursor: zoom-in; 
 }
 .Design_Image1:hover{
@@ -415,8 +415,8 @@ ul {
 
 .Design_Image2 {
     position: absolute;
-    top: 2900px;
-    right: 10px;
+    top: 1900px;
+    right: 100px;
     cursor: zoom-in;
 }
 .Design_Image2:hover{
@@ -425,8 +425,8 @@ ul {
 }
 .Design_Image3 {
     position: absolute;
-    top: 3200px;
-    right: 10px;
+    top: 2250px;
+    right: 500px;
     cursor: zoom-in;
 }
 .Design_Image3:hover{
@@ -435,8 +435,8 @@ ul {
 }
 .Design_Image4 {
     position: absolute;
-    top: 3500px;
-    right: 10px;
+    top: 2250px;
+    right: 100px;
     cursor: zoom-in;
 }
 .Design_Image4:hover{
