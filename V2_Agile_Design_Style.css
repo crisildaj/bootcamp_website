@@ -30,13 +30,13 @@ body{
     margin-top: 15px;
     margin-bottom: 5px;
     margin-left: 30px;
-    margin-right: 10px;
+    margin-right: 1300px;
     border-radius: 20px;
-    padding: 2px 5px;
+    padding: 2px 7px 2px 7px;
     background-color: #0072c9;
-    opacity: 1;
+    opacity: 10;
     text-align: center;
-    font-size:xx-small;
+    font-size: larger;
 }
 a:link {
     color: white;
@@ -46,8 +46,26 @@ a:visited {
     color: white;
     text-decoration: none;
 }
-.nav:hover{
+#aboutUs,#resources,#legalPrivacy{
+    transition:0.5s;
+}
+#aboutUs:hover{
+    background-color: white;
     color: black;
+    border-radius: 6px; 
+    padding:5px
+}
+#resources:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px; 
+    padding:5px
+}
+#legalPrivacy:hover{
+    background-color: white;
+    color: black;
+    border-radius: 6px; 
+    padding:5px
 }
 /*main header Agile DSDM,Scrum,Design Thinking Aligned center*/
 .header-title {
