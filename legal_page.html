@@ -154,7 +154,7 @@
         text-align: center;
         margin-top: -0px;
     }
-
+    
     /* styling for white textbox */
     .textbox1 {
         background-color: white;
@@ -187,7 +187,7 @@
         margin-left: 10px; 
     }
 
-    /* styling for title: 'Python Programming & Flask' */
+    /* styling for title: 'legal' */
     h1 {
         font-size: 30pt;
         margin-top: -50px;
@@ -198,30 +198,16 @@
     .intro_text {
         margin: 0px 40px 40px 40px;
     }
-    
-    /* styling for images div */
-   /* .images {
-        margin-left: 50vw;
-        margin-top: -47vw;
-        
-        /* border-radius: 20px;
-        border-style: solid;
-        border-color: #0072c9; */
-        /*overflow: hidden;
-       
-        width: 30vw;
-        padding: 100px;
-
+    a:link{
+    color: white;
+    text-decoration: none;
     }
-
-    /* styling for actual image */
-    /* I've decided to only include one image cause I don't think python will need loads of images */
-    /* .screenshots {
-        height: 500px;
-        width: 500px;
-        margin-top: -150px;
-        margin-left: 200px;
-    } */
+    
+    a:visited{
+    color: white;
+    text-decoration: none;
+    }
+   
 
     .Page_Footer {
     
@@ -233,6 +219,9 @@
     
     
 }
+
+
+
     /* html, body {
         /* hides scrollbar and prevents scrolling for the whole webpage */
         /* margin: 0; 
@@ -257,13 +246,9 @@
         <!-- nav bar -->
         <div id="pages">
             <ul id="pageList">
-
-                <li class="otherPages"><a href="aboutUs.html">About Us</a></li>
-    
-                <li class="otherPages"><a href="resources_page.html">Resources</a></li>
-    
-                <li class="otherPages"><a href="legal_page.html">Legal & Privacy</a></li>
-    
+                <li class="otherPages" id="aboutUs"><a href="aboutUs.html" style="text-decoration:none; color:white">About Us</a></li>
+                <li class="otherPages"  id="resources"><a href="resources_page.html" style="text-decoration:none; color:white">Resources</a></li>
+                <li class="otherPages" id="legalPrivacy"><a href="legal_page.html" style="text-decoration:none; color:white">Legal & Privacy</a></li>
             </ul>
         </div>
 
@@ -280,12 +265,11 @@
     <div class="main_flexbox">
         <!-- Application of knowledge -->
         <div style="width: 50%" class="textbox1" >
-            <h3 style="text-align: center;" class="bullets">Legalities to note</h3>
+            <h3 style="text-align: center;" class="bullets">Legal and Privacy Notices</h3>
                 
                 <ul>
-                    Copyright Notice:
-                    <p>The content, design, and materials on this website are protected by copyright and intellectual property laws. All rights are reserved unless explicitly stated otherwise. You may not reproduce, distribute, or modify any part of this website without prior written consent.</p>
-                   
+                    <span class = "bold">Notice:</span>
+                    <p>The content, design, and materials on this website are protected by copyright and intellectual property laws. All rights are reserved unless explicitly stated otherwise. You may not reproduce, distribute, or modify any part of this website without prior written consent.</p> 
                 </ul>
                 <ul>
                     Accuracy and Currency of Information:
@@ -293,13 +277,20 @@
                 </ul>
                 <ul>
                     Links to External Websites:
-
-
                     <p>This website may contain links to external websites or resources. We do not endorse, control, or take responsibility for the content, practices, or privacy policies of any third-party websites. Visiting external sites through our links is at your own risk.</p>
-                   </ul>
-                   <ul>
-                    
-                   </ul>
+                </ul>
+                <ul>
+                  Data Security: 
+                  <p>We take reasonable steps to protect your personal information from unauthorized access, disclosure, alteration, or destruction. However, no method of data transmission over the internet or electronic storage is completely secure, and we cannot guarantee the absolute security of your information.</p>  
+                </ul>
+                <ul>
+                  
+                    <p>We may collect the following types of information when you visit our website:
+
+                    <p>Personal Information: We may collect personal information such as your name, email address, and any other information you voluntarily provide when you contact us or sign up for our newsletter.</p>
+                    <p> Log Data: Like many websites, we may automatically collect certain information when you visit, including your IP address, browser type, operating system, and browsing activity.</p>
+                        
+                </ul>
         </div>
 
     
